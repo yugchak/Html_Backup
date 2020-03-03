@@ -1,0 +1,53 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>HtmlCode_Backup</title>
+
+<script>
+function myFun()
+{
+document.getElementById("demo").innerHTML="My First JavaScript Function";
+}
+
+function myluck(name,job)
+{
+alert("Welcome " + name + ", the " + job);
+}
+function myFunction(a)
+{
+alert("Hello " + a);
+}
+</script>
+</head>
+
+
+
+<body>
+<h1>My Web Page</h1>
+
+<p id="demo">A Paragraph</p>
+<p id="ppt">A Paragraph</p>
+
+<button type="button" onclick="myFun()">Try it</button>
+<button type="button" onclick="myFuck()">Cry it</button>
+<button type="button" onclick="myluck('Bill Gates','CEO')">点击这里</button>
+<button onclick="alert('hello,world')">点击这里</button>
+<button onclick="myFunction('123')">点击这里</button>
+
+<br /><br />
+<button onclick="location.href='a/index.php'">点击这里</button>
+<input type="button" onclick="location.href='a/index.php'" value="点击这里">
+
+
+<script>
+function myFuck()
+{
+document.getElementById("ppt").innerHTML="My First JavaScript Function";
+}
+
+
+</script>
+</body>
+</html>
+
